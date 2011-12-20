@@ -70,7 +70,6 @@ conditional-stylesheets[if lte IE 6][all][] = css/ie6.css
   ; add a line line to this file, and then add the new variable to your
   ; page.tpl.php template.
 regions[header]         = Header
-regions[navigation]     = Navigation bar
 regions[content_top]    = Content top
 regions[content_bottom] = Content bottom
 regions[footer_left]    = Footer left 

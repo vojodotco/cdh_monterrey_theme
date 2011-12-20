@@ -128,13 +128,6 @@
                         <a href="http://monterrey.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_monterrey/images/cdh-mty/header-logo.gif"></a>
                     </div>
                 </div>
-                <?php if ($navigation) { ?>
-                    <div class="row">
-                        <div class="twelvecol last">
-                            <?php print $navigation ?>
-                        </div>
-                    </div>
-                <?php } ?>
             </div>
                 
             <div id="main-wrapper">

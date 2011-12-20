@@ -4,3 +4,24 @@
  */
 
 
+/** related to the Monterrey view blog entry page **/
+
+.cdhm-story-author {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.cdhm-story-body {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.cdhm-story-created-date {
+    margin-bottom: 1em;
+}
+
+.cdhm-story-created-tags {
+    margin-bottom: 1em;
+}

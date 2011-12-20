@@ -3,4 +3,14 @@
  * Views Styling
  */
 
+.cdhm-story-list .views-field-title {
+    border-top: 1px solid #BBBBBB;
+}
 
+.cdhm-story-list {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.olControlAttribution {
+    bottom: 0.5em !important;
+}
