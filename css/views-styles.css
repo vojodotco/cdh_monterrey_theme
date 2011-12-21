@@ -7,7 +7,6 @@
 }
 
 .cdhm-story-list {
-    border-bottom: 1px solid #BBBBBB;
 }
 
 .olControlAttribution {
@@ -31,4 +30,29 @@
 .cdhm-story-list .views-field-field-image-fid img {
     border: 0.3em solid #ffffff;
     margin-bottom: 0.4em;
+}
+
+/** pager **/
+
+.item-list .pager {
+    text-align: left;
+    margin-left: 0em;
+    padding-left: 0em;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+.item-list .pager .pager-item {
+    padding: 0em;
+    border-left: 0.1em solid #cccccc;
+}
+.item-list .pager a {
+    color: #dddddd;
+    padding: 0em 0.2em 0em 0.4em;
+    margin: 0em 0.2em;
+}
+
+/** about page **/
+.view-display-id-cdhm_about_page h2 {
+    margin-top: .6667em;
+    margin-bottom: 0.33em;
 }

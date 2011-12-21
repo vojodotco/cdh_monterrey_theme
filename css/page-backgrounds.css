@@ -41,15 +41,16 @@ body {
 
 #footer {
     background: #252525;
-    color: #ffffff;
+    color: #cccccc;
+    padding: 2em 0em;
 }
 
 #footer .section {
 }
 
 #page-closure {
-    padding: 1em 0em;
     color: #CBCBCB;
     font-size: 1.2em;
     text-transform: uppercase;
+    padding: 2em 0em 4em 0em;
 }

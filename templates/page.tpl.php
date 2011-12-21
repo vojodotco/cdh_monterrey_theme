@@ -190,9 +190,9 @@
             <div id="page-closure" class="container">
                 <div class="row">
                     <div class="twelvecol last">
-                        Crónicas de Héroes Monterrey : 
+                        Crónicas de Héroes Monterrey /
                         <a href="http://www.heroreports.org/">Hero Reports</a>
-                        :
+                        /
                         <a href="http://civic.mit.edu">MIT Center for Civic Media</a>
                     </div>
                 </div>

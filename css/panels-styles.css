@@ -28,3 +28,10 @@
     color: #ffffff;
     font-weight: bold;
 }
+
+/** footer panels **/
+
+#footer h2 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
