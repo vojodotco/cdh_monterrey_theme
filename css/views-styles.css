@@ -4,7 +4,6 @@
  */
 
 .cdhm-story-list .views-field-title {
-    border-top: 1px solid #BBBBBB;
 }
 
 .cdhm-story-list {
@@ -13,4 +12,23 @@
 
 .olControlAttribution {
     bottom: 0.5em !important;
+}
+
+.cdhm-story-list h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+    
+}
+.cdhm-story-list h3 a {
+    color: #000000;
+}
+
+.cdhm-story-list p {
+    margin-bottom: 4em;
+}
+
+.cdhm-story-list .views-field-field-image-fid img {
+    border: 0.3em solid #ffffff;
+    margin-bottom: 0.4em;
 }

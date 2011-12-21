@@ -22,6 +22,9 @@
     margin-bottom: 1em;
 }
 
-.cdhm-story-created-tags {
+.cdhm-story-tags {
     margin-bottom: 1em;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: bold;
 }
