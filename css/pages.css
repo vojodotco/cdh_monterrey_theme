@@ -129,6 +129,10 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
+h1.title {
+    margin-top: 0.5em;
+}
+
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -253,6 +257,11 @@ ul.links li {
 .region-footer {
 }
 
+#footer h2 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
 /*
  * Closure
  */
@@ -311,4 +320,10 @@ ul.links li {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+/** blue sub-header **/
+
+#cdhm-content-top img.chdm-icon {
+    float: left;
 }

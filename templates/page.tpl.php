@@ -131,29 +131,23 @@
             </div>
                 
             <div id="main-wrapper">
+
+                <?php if($content_top) { ?>
+                    <div class="container" id="cdhm-content-top">
+                        <div class="row">
+                            <?php print $content_top ?>
+                        </div>
+                    </div>
+                <?php } ?>
                 
-                <?php if ($messages || $tabs || $title || content_top) { ?>
+                <?php if ($messages || $tabs || content_top) { ?>
                     <div class="container">
-                        <?php if ($title) { ?>
-                            <div class="row">
-                                <div class="twelvecol last">
-                                    <h1 class="title"><?php print $title ?></h1>
-                                </div>
-                            </div>
-                        <?php } ?>
-    
                         <?php if ($messages || $tabs) { ?>
                             <div class="row">
                                 <div class="twelvecol last">
                                     <?php print $messages; ?>  
                                     <div class="tabs"><?php print $tabs; ?></div>
                                 </div>
-                            </div>
-                        <?php } ?>
-                        
-                        <?php if($content_top) { ?>
-                            <div class="row" id="cdhm-content-top">
-                                <?php print $content_top ?>
                             </div>
                         <?php } ?>
                     </div>
