@@ -10,6 +10,7 @@
 // remove some other buttons
 unset($form['buttons']['preview']);
 unset($form['locations']);
+unset($form['attachments']);
 
 // include the libraries for geocoding from the single address text input field
 drupal_set_html_head('<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>');
@@ -49,7 +50,7 @@ drupal_add_js(drupal_get_path('theme', 'cdh_monterrey') . '/js/location-autocomp
     <input type="hidden" name="og_groups[10055]" id="edit-og-groups-10055" value="10055" class="form-checkbox og-audience">
 
     <div class="row">
-        <div class="twelvecol last cdhj-buttons">
+        <div class="twelvecol last cdhm-buttons">
         
         <?php print drupal_render($form); ?>
         

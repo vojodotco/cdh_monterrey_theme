@@ -184,3 +184,16 @@ ul.ui-autocomplete li a {
 ul.ui-autocomplete li a.ui-state-hover {
 	background: #6CD5E2;
 }
+
+.cdhm-submit-form .cdhm-buttons input[type="submit"] {
+    background: #404040;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    margin-top: 1em;
+    padding: 0.25em 0.5em;
+    text-shadow: 0 1px 0 #000000;
+}
+}
