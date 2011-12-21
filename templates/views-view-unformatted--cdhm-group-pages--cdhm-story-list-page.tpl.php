@@ -13,21 +13,34 @@
 <?php endif; ?>
 
 <div class="cdhm-story-list">
-    <?php $row_num = 1; ?>
-    <?php foreach ($rows as $id => $row): ?>
     <?php 
-              $extra_css = "fourcol";
-              if($row_num%3==0) {
-                $extra_css.= " last";
-              }
-              if($row_num%3==1) print '<div class="row">';
-          ?>
-          <div class="<?php print $classes[$id]; ?>  <?php print $extra_css ?>">
-    <?php       print $row; ?>
-          </div>
+    $row_num = 1;
+    $item_num = 1;
+    foreach ($rows as $id => $row) { 
+        $extra_css = "threecol";
+        if( ($item_num%3==0) && ($row_num!=1) ) {
+            $extra_css.= " last";
+        }
+        if($item_num%3==1) {
+            print '<div class="row">';
+        }
+    ?>  <div class="<?php print $classes[$id]; ?>  <?php print $extra_css ?>">
     <?php
-              if($row_num%3==0) print '</div>';
-              $row_num = $row_num + 1;
+            print $row; 
     ?>
-    <?php endforeach; ?>
+        </div>
+    <?php
+        if($item_num%3==0) {
+            if($row_num==1){
+    ?>          <div class="threecol last">
+                    TODO: structured tag list
+                </div>
+    <?php
+            }
+            print '</div>';
+            $row_num = $row_num + 1;
+        }
+        $item_num = $item_num + 1;
+    }
+    ?>
 </div>
