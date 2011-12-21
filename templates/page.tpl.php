@@ -129,17 +129,15 @@
                     </div>
                 </div>
             </div>
+
+            <?php if($sub_header) { ?>
+            <div class="container" id="sub-header">
+                <?php print $sub_header ?>
+            </div>
+            <?php } ?>
                 
             <div id="main-wrapper">
 
-                <?php if($content_top) { ?>
-                    <div class="container" id="cdhm-content-top">
-                        <div class="row">
-                            <?php print $content_top ?>
-                        </div>
-                    </div>
-                <?php } ?>
-                
                 <?php if ($messages || $tabs || content_top) { ?>
                     <div class="container">
                         <?php if ($messages || $tabs) { ?>

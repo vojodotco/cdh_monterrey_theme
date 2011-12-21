@@ -324,6 +324,10 @@ ul.links li {
 
 /** blue sub-header **/
 
-#cdhm-content-top img.chdm-icon {
+#sub-header img.chdm-icon {
     float: left;
+}
+
+#sub-header .pane-content .elevencol h2 {
+    color: #000000;
 }
