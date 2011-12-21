@@ -330,4 +330,9 @@ ul.links li {
 
 #sub-header .pane-content .elevencol h2 {
     color: #000000;
+    margin-left: 50px;
+}
+
+#sub-header .pane-content .elevencol p {
+    margin-left: 50px;
 }
