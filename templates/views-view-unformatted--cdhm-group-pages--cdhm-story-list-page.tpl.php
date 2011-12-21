@@ -33,7 +33,7 @@
         if($item_num%3==0) {
             if($row_num==1){
     ?>          <div class="threecol last">
-                    TODO: structured tag list
+                   <!-- TODO: structured tag list -->
                 </div>
     <?php
             }
