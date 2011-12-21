@@ -132,3 +132,55 @@ form thead th {
 form tbody th {
   border-bottom: 1px solid #ccc;
 }
+
+/** Custom style rules for the special story submit page **/
+
+.cdhm-submit-form .teaser-button-wrapper, 
+.cdhm-submit-form .body-field-wrapper > p, 
+.cdhm-submit-form .cdhm-buttons .collapsible,
+.cdhm-submit-form .body-field-wrapper .tips {
+    display: none;
+}
+
+.cdhm-submit-form #field-image-items label {
+    font-size: 1em;
+    display: inline;
+    font-family: auto;
+}
+
+.cdhm-submit-form #field_image_values {
+    width: 96%;
+}
+
+.cdhm-submit-form #edit-submit {
+    padding: 0.5em;
+}
+
+.cdhm-submit-form textarea,
+.cdhm-submit-form input[type="text"] {
+    font-size: 1.1em;
+    color: #333333;
+    padding: 0.3em;
+}
+
+ul.ui-autocomplete {
+	background: #ffffff;
+	list-style: none;
+	display: inline-block;
+	padding: 0em;
+	margin: 0em;
+	border: 1px solid #666666;
+}
+ul.ui-autocomplete li {
+    cursor:pointer;cursor:hand;
+	font-size: 1.0em;
+	font-style: italic;
+}
+ul.ui-autocomplete li a {
+    display: block;
+    color: #333333;
+	padding: 0.3em;
+}
+ul.ui-autocomplete li a.ui-state-hover {
+	background: #6CD5E2;
+}
