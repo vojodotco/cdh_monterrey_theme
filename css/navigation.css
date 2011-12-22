@@ -46,19 +46,18 @@ li a.active {
 /** The Monterrey nav menu **/
 
 #block-menu-menu-monterrey {
-    float: right;
     margin: 0em;
     padding: 0em;
 }
 
 #block-menu-menu-monterrey ul {
     display block;
-    float: none;
     height: 2em;
     padding: 0em;
     list-style: none;
     margin: 0em;
-    margin-top: 60px;
+    margin-top: 20px;
+    float: right;
 }
 
 #block-menu-menu-monterrey ul li:first-child {
@@ -68,7 +67,6 @@ li a.active {
 #block-menu-menu-monterrey ul li {
     border-left: 1px solid #6d6d6d;
     display: inline-block;
-    float: left;
     padding: 0.4em 1em;
     margin: 0em;
 }

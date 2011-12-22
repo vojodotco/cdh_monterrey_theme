@@ -102,3 +102,31 @@
 #block-panels_mini-cdhm_pre_content {
     margin-bottom: 0em;
 }
+
+/** language switcher **/
+.block-locale {
+    margin: 0em;
+    padding: 0em;
+}
+.block-locale h2 {
+    display: none;
+}
+.block-locale ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+}
+.block-locale ul li {
+    display: inline-block;
+    font-size: 1.0em;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+.block-locale ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+.block-locale ul li.active a {
+    color: #6CE5D2;
+}

@@ -123,9 +123,11 @@
         
             <div id="header" class="container">
                 <div class="row">
-                    <div class="twelvecol last">
-                        <?php print $header ?>
+                    <div class="fourcol">
                         <a href="http://monterrey.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_monterrey/images/cdh-mty/header-logo.gif"></a>
+                    </div>                    
+                    <div class="eightcol last">
+                        <?php print $header ?>
                     </div>
                 </div>
             </div>
