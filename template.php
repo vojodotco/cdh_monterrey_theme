@@ -155,3 +155,30 @@ function cdh_monterrey_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
+
+/**
+ * Implements theme_menu_item_link(), with a small hack to add a css class so we can
+ * show an icon next to the menu item.
+ */
+function cdh_monterrey_menu_item_link($link) {
+  if (empty($link['localized_options'])) {
+    $link['localized_options'] = array();
+  }
+
+  // If an item is a LOCAL TASK, render it as a tab
+  if ($link['type'] & MENU_IS_LOCAL_TASK) {
+    $link['title'] = '<span class="tab">' . check_plain($link['title']) . '</span>';
+    $link['localized_options']['html'] = TRUE;
+  }
+
+  // BEGIN custom code 
+    $extra_span = "";
+    if($link['menu_name']=="menu-monterrey") {
+        $class_name = "cdhm-nav-icon-".strtolower($link['link_title']);
+        $extra_span = "<span class=\"cdhm-nav-icon $class_name\"></span>";
+        $link['localized_options']['html'] = 'true';
+    }
+  // END custom code
+
+  return l($extra_span.$link['title'], $link['href'], $link['localized_options']);
+}

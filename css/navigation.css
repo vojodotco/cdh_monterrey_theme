@@ -86,3 +86,31 @@ li a.active {
 #block-menu-menu-monterrey ul li a:hover {
 	color: #6CD5E2;
 }
+
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon {
+	float: left;
+	width: 26px;
+	height: 26px;
+	font-size: 2px;
+	margin-top: -5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-home {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat 0px 0px;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-submit {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat -26px 0px;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-browse {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat -52px 0px;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-map {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat -78px 0px;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-downloads {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat -104px 0px;
+}
+#block-menu-menu-monterrey ul li a .cdhm-nav-icon-about {
+    background: url('/sites/all/themes/cdh_monterrey/images/cdh-mty/nav-icons-small.gif') no-repeat -130px 0px;
+}
