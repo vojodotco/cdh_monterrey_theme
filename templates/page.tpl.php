@@ -190,16 +190,27 @@
                         <a href="http://civic.mit.edu">MIT Center for Civic Media</a>
                     </div>
                 </div>
-                <?php if($page_closure) { ?>
+                <?php if($footer) { ?>
                     <div class="row">
                         <div class="twelvecol last">
-                            <?php print $page_closure; ?>
+                            <?php print $footer; ?>
                         </div>
                     </div>
                 <?php } ?>
                 </div>
 
             </div>
+
+
+            <?php if($page_closure) { ?>
+            <div class="container">
+                <div class="row">
+                    <div class="twelvecol last">
+                        <?php print $page_closure; ?>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
 
         </div>
 
