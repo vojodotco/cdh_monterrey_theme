@@ -16,45 +16,45 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-#page-wrapper {
+#cdhm-page-wrapper {
 }
 
-#page {
+#cdhm-page {
 }
 
-#header {
+#cdhm-header {
     background: #1D1D1D;
 }
 
-#header .section {
+#cdhm-header .section {
 }
 
-#main-wrapper {
+#cdhm-main-wrapper {
     background: #9A9B9D;
     color: #000000;
 }
 
-#sub-header {
+#cdhm-sub-header {
     padding-top: 1em;
     background: #6CD5E2;
     padding-bottom: 1em;
 }
 
-#main {
+#cdhm-main {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-#footer {
+#cdhm-footer {
     background: #252525;
     color: #cccccc;
     padding: 2em 0em;
 }
 
-#footer .section {
+#cdhm-footer .section {
 }
 
-#page-closure {
+#cdhm-page-closure {
     color: #CBCBCB;
     font-size: 1.2em;
     text-transform: uppercase;
