@@ -37,10 +37,10 @@ a:visited {
 
 /* Turn off any background colors or images */
 body,
-#cdhm-page-wrapper,
-#cdhm-page,
-#cdhm-main-wrapper,
-#cdhm-main,
+#page-wrapper,
+#page,
+#main-wrapper,
+#main,
 #content,
 #content .section {
   color: #000;
@@ -53,7 +53,7 @@ body,
 #navigation,
 .region-sidebar-first,
 .region-sidebar-second,
-#cdhm-footer,
+#footer,
 .breadcrumb,
 div.tabs,
 .links,
@@ -68,6 +68,6 @@ div.tabs,
 
 /* If you un-comment the "page { overflow-y: hidden; }" ruleset, Firefox clips
    the content after the first page. */
-#cdhm-page-wrapper {
+#page-wrapper {
   overflow-y: visible;
 }

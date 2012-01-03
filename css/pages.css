@@ -16,10 +16,10 @@ body {
   padding: 0;
 }
 
-#cdhm-page-wrapper {
+#page-wrapper {
 }
 
-#cdhm-page {
+#page {
 }
 
 /*
@@ -52,10 +52,10 @@ body {
 /*
  * Header
  */
-#cdhm-header {
+#header {
 }
 
-#cdhm-header .section {
+#header .section {
 }
 
 #logo /* Wrapping link for logo */ {
@@ -99,10 +99,10 @@ div#site-name /* The name of the website */ {
 /*
  * Main (container for everything else)
  */
-#cdhm-main-wrapper {
+#main-wrapper {
 }
 
-#cdhm-main {
+#main {
 }
 
 /*
@@ -245,10 +245,10 @@ ul.links li {
 /*
  * Footer
  */
-#cdhm-footer {
+#footer {
 }
 
-#cdhm-footer .section {
+#footer .section {
 }
 
 #footer-message /* Wrapper for the footer message from Drupal's "Site information"
@@ -258,7 +258,7 @@ ul.links li {
 .region-footer {
 }
 
-#cdhm-footer h2 {
+#footer h2 {
     color: #ffffff;
     margin-bottom: 0.5em;
 }
@@ -325,15 +325,15 @@ ul.links li {
 
 /** blue sub-header **/
 
-#cdhm-sub-header img.chdm-icon {
+#sub-header img.chdm-icon {
     float: left;
 }
 
-#cdhm-sub-header .pane-content .elevencol h2 {
+#sub-header .pane-content .elevencol h2 {
     color: #000000;
     margin-left: 50px;
 }
 
-#cdhm-sub-header .pane-content .elevencol p {
+#sub-header .pane-content .elevencol p {
     margin-left: 50px;
 }
