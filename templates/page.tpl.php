@@ -117,11 +117,11 @@
 </head>
 <body class="<?php print $classes; ?>">
 
-    <div id="page-wrapper">
+    <div id="cdhm-page-wrapper">
         
-        <div id="page">
+        <div id="cdhm-page">
         
-            <div id="header" class="container">
+            <div id="cdhm-header" class="container">
                 <div class="row">
                     <div class="fourcol">
                         <a href="http://monterrey.cronicasdeheroes.mx/"><img src="/sites/all/themes/cdh_monterrey/images/cdh-mty/header-logo.gif"></a>
@@ -133,12 +133,12 @@
             </div>
 
             <?php if($sub_header) { ?>
-            <div class="container" id="sub-header">
+            <div id="cdhm-sub-header" class="container">
                 <?php print $sub_header ?>
             </div>
             <?php } ?>
                 
-            <div id="main-wrapper">
+            <div id="cdhm-main-wrapper">
 
                 <?php if ($messages || $tabs || content_top) { ?>
                     <div class="container">
@@ -153,12 +153,12 @@
                     </div>
                 <?php } ?>
             
-                <div id="main" class="container">
+                <div id="cdhm-main" class="container">
                     <?php print $content ?>
                 </div>
             
                 <?php if ($content_bottom) { ?>
-                    <div class="container" id="cdhm-content-bottom">
+                    <div id="cdhm-content-bottom" class="container">
                         <div class="row">
                             <?php print $content_bottom ?>
                         </div>
@@ -167,7 +167,7 @@
 
             </div>
         
-            <div id="footer" class="container">
+            <div id="cdhm-footer" class="container">
                 <div class="row">
                     <div class="fourcol">
                         <?php print $footer_left ?>
@@ -181,7 +181,7 @@
                 </div>
             </div>
 
-            <div id="page-closure" class="container">
+            <div id="cdhm-page-closure" class="container">
                 <div class="row">
                     <div class="twelvecol last">
                         Crónicas de Héroes Monterrey /
