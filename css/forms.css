@@ -137,6 +137,7 @@ form tbody th {
 
 .cdhm-submit-form .teaser-button-wrapper, 
 .cdhm-submit-form .body-field-wrapper > p, 
+.cdhm-submit-form .cdhm-buttons > div.form-item, /** hide audience checkboxes, because we're setting it automitcally with a hidden field **/
 .cdhm-submit-form .cdhm-buttons .collapsible,
 .cdhm-submit-form .body-field-wrapper .tips {
     display: none;
