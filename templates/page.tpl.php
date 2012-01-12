@@ -109,7 +109,7 @@
  
 // HACK: permissons
 // force the admin to get the group-admin role on every group page, not just the ones where og_user_roles can figure out the context
-$group_id = 10015;
+$group_id = 10055;
 $group_node = node_load($group_id);
 og_user_roles_grant_roles($user, $group_node);
 
