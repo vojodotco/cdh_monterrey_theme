@@ -187,38 +187,23 @@ og_user_roles_grant_roles($user, $group_node);
                         <?php print $footer_right ?>
                     </div>
                 </div>
+                <?php if($footer) { ?>
+                <div class="row">
+                    <div class="twelvecol last">
+                        <?php print $footer; ?>
+                    </div>
+                </div>
+                <?php } ?>
             </div>
 
             <div id="cdhm-page-closure" class="container">
                 <div class="row">
                     <div class="twelvecol last">
-                        Crónicas de Héroes Monterrey /
-                        <a href="http://www.heroreports.org/">Hero Reports</a>
-                        /
-                        <a href="http://civic.mit.edu">MIT Center for Civic Media</a>
-                    </div>
-                </div>
-                <?php if($footer) { ?>
-                    <div class="row">
-                        <div class="twelvecol last">
-                            <?php print $footer; ?>
-                        </div>
-                    </div>
-                <?php } ?>
-                </div>
-
-            </div>
-
-
-            <?php if($page_closure) { ?>
-            <div class="container">
-                <div class="row">
-                    <div class="twelvecol last">
+                        <a href="http://mty.cronicasdeheroes.mx/">Monterrey</a> / <a href="http://www.cronicasdeheroes.mx/">Crónicas de Héroes</a>
                         <?php print $page_closure; ?>
                     </div>
                 </div>
             </div>
-            <?php } ?>
 
         </div>
 

@@ -99,6 +99,11 @@
     color: #6CE5D2;
 }
 
+#cdhm-page-closure .block {
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+
 #block-panels_mini-cdhm_pre_content {
     margin-bottom: 0em;
 }
@@ -129,4 +134,8 @@
 }
 .block-locale ul li.active a {
     color: #6CE5D2;
+}
+
+#block-vojo-license img {
+    vertical-align: middle;
 }
