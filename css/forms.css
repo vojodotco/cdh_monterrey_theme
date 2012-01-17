@@ -157,6 +157,7 @@ form tbody th {
     padding: 0.5em;
 }
 
+#views-exposed-form-cdhm-og-search-cdhm-search-page input[type="text"], /** in-group search input in footer **/
 .cdhm-submit-form textarea,
 .cdhm-submit-form input[type="text"] {
     font-size: 1.1em;
@@ -186,6 +187,7 @@ ul.ui-autocomplete li a.ui-state-hover {
 	background: #6CD5E2;
 }
 
+#edit-submit-cdhm-og-search , /** in-group search button in footer **/
 .cdhm-submit-form .cdhm-buttons input[type="submit"] {
     background: #404040;
     font-weight: bold;
@@ -197,4 +199,7 @@ ul.ui-autocomplete li a.ui-state-hover {
     padding: 0.25em 0.5em;
     text-shadow: 0 1px 0 #000000;
 }
+
+#edit-submit-cdhm-og-search {
+    margin-top: 0em;
 }
