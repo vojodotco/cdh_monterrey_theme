@@ -16,6 +16,7 @@
   border: 2px solid #c00;
 }
 
+#node-form legend, /* the captcha label */
 .form-item label /* The label for a form element */ {
   display: block;
   font-weight: bold;
