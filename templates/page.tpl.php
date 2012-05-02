@@ -179,6 +179,9 @@ og_user_roles_grant_roles($user, $group_node);
             <div id="cdhm-footer" class="container">
                 <div class="row">
                     <div class="fourcol">
+                        <div id="cdhm-mailto-link">
+                        <a href="mailto:info@cronicasdeheroes.mx"><img src="/<?php print drupal_get_path('theme','cdh_monterrey');?>/images/cdh-mty/email-badge.png"></a>
+                        </div>
                         <?php print $footer_left ?>
                     </div>
                     <div class="fourcol">
@@ -202,8 +205,6 @@ og_user_roles_grant_roles($user, $group_node);
                     <div class="twelvecol last">
                         <?php print $page_closure; ?>
                         <a href="http://mty.cronicasdeheroes.mx/">Monterrey</a> / <a href="http://www.cronicasdeheroes.mx/">Crónicas de Héroes</a>
-                        <br />
-                        info-mty&#64;cronicasdeheroes.mx
                         <br />
                         <?php if($logged_in) { ?>
                             <a href="<?php print drupal_get_path_alias('/logout'); ?>">logout</a>
