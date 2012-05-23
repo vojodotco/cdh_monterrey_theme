@@ -24,6 +24,10 @@ drupal_add_js(drupal_get_path('theme', 'cdh_monterrey') . '/js/location-autocomp
         <?php print drupal_render($form['title']); ?>
         
         <?php print drupal_render($form['body_field']); ?>
+
+        <div class="form-item">
+            <?php print drupal_render($form['field_image']); ?>
+        </div>
         
     </div>
     
@@ -31,9 +35,7 @@ drupal_add_js(drupal_get_path('theme', 'cdh_monterrey') . '/js/location-autocomp
     
         <?php print drupal_render($form['language']); ?>
 
-        <div class="form-item">
-            <?php print drupal_render($form['field_image']); ?>
-        </div>
+        <?php print drupal_render($form['field_map']); ?>
     
         <?php print drupal_render($form['taxonomy']); ?>
     
