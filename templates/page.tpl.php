@@ -129,6 +129,8 @@ og_user_roles_grant_roles($user, $group_node);
     <div id="cdhm-page-wrapper">
         
         <div id="cdhm-page">
+
+            <?php print $vojo_site_header; ?>
         
             <div id="cdhm-header" class="container">
                 <div class="row">
